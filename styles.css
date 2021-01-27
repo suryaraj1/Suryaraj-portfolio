@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 1.2em;
+    height: 1.2em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #080a25;
+    /* to remove horizontal scroll-bar */
+    overflow-x: hidden;
+}
+
+#particles-js {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.sticky-nav {
+    top: 0;
+    left: 0;
+    position: relative;
+    top: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.sticky-nav h2 {
+    position: relative;
+    left: 50px;
+    font-weight: 100;
+    transition: 0.4s;
+    text-shadow: 0px 10px 20px rgb(0, 0, 0, 0.2);
+    color: rgb(136, 132, 132);
+}
+
+.sticky-nav h2:hover {
+    cursor: pointer;
+    color:  rgb(250, 237, 237);
+}
+
+.sticky {
+    padding: 5px;
+    background: rgb(235, 229, 229);
+}
+
+.sticky-nav ul {
+    position: relative;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky-nav ul li {
+    position: relative;
+    list-style: none;
+}
+
+.sticky-nav ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1.7px;
+    font-weight: 500px;
+    transition: 0.6s;
+    font-size: 20px;
+}
+
+.sticky ul li a {
+    color: #000;
+    text-shadow: 0px 10px 20px rgb(0, 0, 0, 0.3);
+}
+
+.sticky h2 {
+    color: #000;
+    text-shadow: 0px 10px 20px rgb(0, 0, 0, 0.3);
+}
+
+.sticky h2:hover {
+    color:  #326abd;
+}
+
+.container {
+    position: relative;
+    top: 230px;
+    color: rgb(250, 237, 237);
+}
+
+.container h1 {
+    font-size: 3.3em;
+}
+
+.container h3 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+.social-media {
+    position: relative;
+    left: 150px;
+}
+
+.social-media ul {
+    display: flex;
+    list-style: none;
+}
+
+.social-media ul li {
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.6s ease;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0, 0.4);
+}
+
+.github:hover,
+.linkedin:hover,
+.twitter:hover {
+    transform: scale(1.2);
+}
+
+.social-media ul li a{
+    text-decoration: none;
+}
+
+#skills {
+    height: 100%;
+}
+
+.typing-demo {
+    position: relative;
+    left: 189px;
+    width: 16ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+  
+@keyframes typing {
+    from {
+      width: 0
+    }
+}
+      
+@keyframes blink {
+    50% {
+      border-color: transparent
+    }
+}
+
+.container1 h1 {
+      position: relative;
+      color: #fff;
+      top: 220px;
+      font-size: 3.3em;
+      left: 84px;
+}
+
+.text-dot {
+    color: rebeccapurple;
+}
+
+.container2 .title {
+    position: relative;
+    color: #fff;
+    top: 220px;
+    font-size: 3.3em;
+    text-align: center;
+
+}
+
+.container2 {
+    position: relative;
+    top: 30px;
+}
+
+.number {
+    font-family: 'Roboto Mono', sans-serif;
+    color: rebeccapurple;
+    font-size: 30px;
+}
+
+.wrapper h1 {
+    color: #fff;
+    font-size: 3.3em;
+    position: relative;
+    top: 120px;
+    left: 84px;
+}
+
+.me-text {
+    height: 300px;
+    width: 600px;
+    position: relative;
+    top: 120px;
+    left: 87px;
+}
+
+.wrapper .me {
+    font-size: 1.2em;
+    font-weight: 100;
+    color: rgb(192, 189, 189);
+    font-family: Inter var,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    
+}
+
+.wrapper .college {
+    color: rgb(163, 86, 240);
+}
+
+.wrapper1 h1 {
+    color: #fff;
+    font-size: 3.3em;
+    position: relative;
+    top: 160px;
+    left: 84px;
+}
+
+.wrapper1 .card {
+    height: 250px;
+    width: 250px;
+    background:  #10133f;
+    position: relative;
+    top: 180px;
+    left: 30px;
+    transition: 0.5s ease-in-out;
+    border-radius: 4px;
+    border: 1px solid #080a25;
+}
+
+.wrapper1 header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.svg-icon {
+    margin: 20px;
+}
+
+.wrapper1 .file {
+    height: 2.1em;
+    width: 2.1em;
+    
+}
+
+.wrapper1 .project-title {
+    color: rgb(238, 234, 234);
+    font-weight: 800;
+    text-align: center;
+}
+
+.wrapper1 .project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper1 .project-description {
+    color: rgb(168, 167, 167);
+    font-size: 13px;
+    position: relative;
+    top: 7px;
+    left: 12px;
+    font-family: Inter var,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.wrapper1 .tech {
+    color: #4691f6;
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    font-family: "Fira Code", "Fira Mono", "SF Mono", "Roboto Mono", Consolas, Monaco, "Lucida Console", "Courier New", monospace;
+    position: relative;
+    top: 14px;
+    right: 64px;
+}
+
+.tech li {
+    margin: 4px;
+}
+
+.wrapper1 .card:hover {
+    transform: translateY(-10px);
+    background-color: #161b5e;;
+    border: 1px solid rebeccapurple;
+}
+
+.linker {
+    transition: 0.3s ease;
+}
+
+.linker:active {
+    transform: scale(0.9);
+}   
+
+.basic-grid {
+    position: relative;
+    left: 50px;
+    width: 800px;
+    display: grid;
+    /* space out the children */
+    gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.wrap-text {
+    color: #fff;
+    height: 500px;
+}
+
+.wrap-text h1 {
+    color: #fff;
+    font-size: 3.3em;
+    position: relative;
+    top: 120px;
+    left: 80px;
+}
+
+.social-container {
+    position: relative;
+    top: 160px;
+    left: 32px;
+    display: flex;
+    margin: 20px;
+}
+
+.social-container .icon {
+    height: 100px;
+    width: 100px;
+    background: rgba(163, 160, 160, 0.11);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-size: 60px;
+}
+
+.social-container .name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.social-container a {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.social-container .icon:active {
+    transform: scale(0.9);
+}
+
+.social-container .linkedin_logo:hover {
+    background-color: #0E76A8;
+    color: #fff;
+}
+
+.social-container .github_logo:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.social-container .email_logo:hover {
+    background-color: rgb(43, 43, 99);
+    color: #fff;
+}
+
+.social-container .hackerrank_logo:hover {
+    background-color: #fff;
+    color: rgb(5, 160, 5);
+}
