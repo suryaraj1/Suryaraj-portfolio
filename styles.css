@@ -198,6 +198,84 @@ body {
       left: 84px;
 }
 
+.skills-intro p {
+    color: rgb(192, 189, 189);
+    font-family: Inter var,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    position: relative;
+    top: 200px;
+    left: 85px;
+}
+
+.skills-intro h2 {
+    position: relative;
+    color: #fff;
+    top: 220px;
+    left: 84px;
+}
+
+.skills-intro span {
+    color: rgb(142, 71, 212);
+}
+
+.cf {
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
+
+.cc {
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    position: relative;
+    bottom: 4px;
+}
+
+.hackerearth {
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    position: relative;
+    bottom: 4px;
+}
+
+.profile {
+    height: 80px;
+    width: 190px;
+    background: #10133f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 1.5em;
+    transition: 0.4s ease;
+    cursor: pointer;
+    border: 1px solid #080a25;
+}
+
+.cp-container a {
+    text-decoration: none;
+    color: rgb(192, 189, 189);
+    font-weight: bold;
+}
+
+.profile:hover {
+    background: #161b5e;
+    border: 1px solid rebeccapurple;
+}
+
+
+.cp-container {
+    color: #fff;
+    display: grid;
+    position: relative;
+    gap: 0.5rem;
+    top: 220px;
+    left: 80px;
+    width: 760px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
 .text-dot {
     color: rebeccapurple;
 }
@@ -324,7 +402,7 @@ body {
 
 .wrapper1 .card:hover {
     transform: translateY(-10px);
-    background-color: #161b5e;;
+    background-color: #161b5e;
     border: 1px solid rebeccapurple;
 }
 
