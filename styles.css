@@ -324,7 +324,7 @@ body {
     display: grid;
     grid-gap: 20px;
     grid-column-gap: 20px;
-    grid-template-columns: repeat(5, minmax(240px, 1fr));
+    grid-template-columns: repeat(6, minmax(240px, 1fr));
 }
 
 .tech-icon {
@@ -378,7 +378,8 @@ body {
 
 .html:hover,
 .css:hover,
-.cpp:hover {
+.cpp:hover,
+.subl:hover {
     border: 2px solid rgb(20, 241, 20);
 }
 
@@ -563,7 +564,7 @@ body {
 .social-container {
     position: relative;
     top: 235px;
-    left: 32px;
+    left: 43px;
     display: flex;
     margin: 20px;
 }
