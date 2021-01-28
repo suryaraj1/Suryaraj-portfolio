@@ -219,7 +219,7 @@ body {
 
 .skills-intro .ICPC_a {
     text-decoration: none;
-    color: rgb(192, 189, 189);;
+    color: rgb(192, 189, 189);
 }
 
 .skills-intro .ICPC {
@@ -255,6 +255,7 @@ body {
     position: relative;
     top: 180px;
 }
+
 
 .cf {
     height: 25px;
@@ -312,6 +313,89 @@ body {
     left: 80px;
     width: 760px;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+
+.tool-container {
+    position: relative;
+    top: 220px;
+    left: 84px;
+    width: 1200px;
+    display: grid;
+    grid-gap: 20px;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(5, minmax(240px, 1fr));
+}
+
+.tech-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    height: 120px;
+    width: 120px;
+    background: #10133f;
+    border-radius: 4px;
+    transition: 0.4s ease;
+    border: 2px solid #080a25;
+}
+
+.tech-icon:hover {
+    border: 2px solid rebeccapurple;
+    background-color: #161b5e;
+}
+
+/* .tech-icon i {
+    height: 70px;
+    width: 60px;
+    font-size: 60px;
+} */
+
+.tech-icon svg {
+    height: 70px;
+    width: 60px;
+}
+
+
+/* for the visual studio code icon */
+.tech-icon img {
+    height: 60px;
+    width: 60px;
+}
+
+.studio {
+    text-align: center;
+}
+
+.tech-icon span {
+    position: relative;
+    top: 7px;
+    color: rgb(192, 189, 189);
+}
+
+/* marking the skills that are decent */
+
+.html:hover,
+.css:hover,
+.cpp:hover {
+    border: 2px solid rgb(20, 241, 20);
+}
+
+/* mark the skills/tech that need improvement */
+
+.git:hover, 
+.java:hover,
+.js:hover,
+.vscode:hover {
+    border: 2px solid orange;
+}
+
+/* reminder for the skills not learnt */
+.node:hover,
+.react:hover,
+.mongo:hover {
+    border: 2px solid red;
 }
 
 .text-dot {
@@ -472,13 +556,13 @@ body {
     color: #fff;
     font-size: 3.3em;
     position: relative;
-    top: 120px;
+    top: 270px;
     left: 80px;
 }
 
 .social-container {
     position: relative;
-    top: 160px;
+    top: 235px;
     left: 32px;
     display: flex;
     margin: 20px;
