@@ -337,7 +337,7 @@ body {
     height: 120px;
     width: 120px;
     background: #10133f;
-    border-radius: 4px;
+    border-radius: 8px;
     transition: 0.4s ease;
     border: 2px solid #080a25;
 }
