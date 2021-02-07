@@ -689,13 +689,26 @@ a {
         width: 400px;
     }
 
+    .wrapper1 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
     .skills-intro .p2 {
         position: relative;
         top: 186px;
     }
 
+    .wrapper1 .card {
+        width: 370px;
+        
+    }
+
     /* todo */
     .basic-grid {
+        position: relative;
+        top: 150px;
         grid-template-columns: repeat(1, minmax(240px, 1fr));
     }
 
