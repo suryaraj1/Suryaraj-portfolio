@@ -638,6 +638,10 @@ a {
 
 /* media queries */
 @media all and (max-width: 500px) {
+
+    body {
+        overflow-x: hidden;
+    }
     .tool-container {
         width: 450px;
         display: flex;
