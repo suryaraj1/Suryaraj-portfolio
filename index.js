@@ -1,4 +1,10 @@
-window.addEventListener("scroll", () => {
-    let header = document.querySelector(".sticky-nav");
-    header.classList.toggle("sticky", window.scrollY > 0);
-})
+const navbar = document.querySelector('.sticky-nav');
+
+window.onscroll = () => {
+  const sticky = navbar.offsetTop;
+  if (window.pageYOffset > sticky) {
+    navbar.classList.add("activate");
+  } else {
+    navbar.classList.remove("activate");
+  }
+};

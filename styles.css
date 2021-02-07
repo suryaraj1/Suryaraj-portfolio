@@ -48,13 +48,14 @@ body {
 .sticky-nav {
     top: 0;
     left: 0;
-    position: relative;
-    top: 160px;
+    position: fixed;
+    top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: 0.4s;
+    z-index: 1;
 }
 
 .sticky-nav h2 {
@@ -87,6 +88,12 @@ body {
 .sticky-nav ul li {
     position: relative;
     list-style: none;
+}
+
+.activate {
+    background: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
 }
 
 .sticky-nav ul li a {
@@ -627,4 +634,64 @@ a {
 .social-container .hackerrank_logo:hover {
     background-color: #fff;
     color: rgb(5, 160, 5);
+}
+
+/* media queries */
+@media all and (max-width: 500px) {
+    .tool-container {
+        width: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #contact {
+        position: relative;
+        top: 310px;
+        left: 10px;
+        height: 500px;
+        width: 450px;
+    }
+
+    .social-container {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cp-container {
+        width: 500px;
+        flex-wrap: wrap;
+    }
+
+    .ICPC_a {
+        display: none;
+    }
+
+    .skills-intro .ICPC {
+        display: none;
+    }
+
+    #projects {
+        height: 600px;
+        width: 400px;
+    }
+
+    .skills-intro .p2 {
+        position: relative;
+        top: 186px;
+    }
+
+    /* todo */
+    .basic-grid {
+        grid-template-columns: repeat(1, minmax(240px, 1fr));
+    }
+
+    #skills {
+        position: relative;
+        left: 10px;
+    }
+
 }
