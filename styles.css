@@ -647,8 +647,9 @@ a {
     }
 
     .tool-container .tech-icon {
-        height: 200px;
-        width: 200px;
+        height: 170px;
+        width: 170px;
+        margin: 6px;
     }
 
     #contact {
@@ -657,6 +658,16 @@ a {
         left: 10px;
         height: 500px;
         width: 450px;
+    }
+
+    .container1 .text {
+        position: relative;
+        top: 190px;
+    }
+
+    .cp-container {
+        position: relative;
+        top: 180px;
     }
 
     .social-container {
