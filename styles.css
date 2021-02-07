@@ -647,14 +647,14 @@ a {
     }
 
     .tool-container .tech-icon {
-        height: 170px;
-        width: 170px;
+        height: 120px;
+        width: 120px;
         margin: 6px;
     }
 
     #contact {
         position: relative;
-        top: 1120px;
+        top: 680px;
         left: 10px;
         height: 500px;
         width: 450px;
