@@ -646,9 +646,14 @@ a {
         flex-wrap: wrap;
     }
 
+    .tool-container .tech-icon {
+        height: 200px;
+        width: 200px;
+    }
+
     #contact {
         position: relative;
-        top: 310px;
+        top: 1890px;
         left: 10px;
         height: 500px;
         width: 450px;
@@ -659,6 +664,11 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    #skills {
+        position: relative;
+        top: 1080px;
     }
 
     .cp-container {
@@ -686,7 +696,7 @@ a {
 
     /* todo */
     .basic-grid {
-        grid-template-columns: repeat(2, minmax(240px, 1fr));
+        grid-template-columns: repeat(1, minmax(240px, 1fr));
     }
 
     #skills {
