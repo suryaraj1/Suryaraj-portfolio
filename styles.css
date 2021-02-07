@@ -718,4 +718,13 @@ a {
         left: 10px;
     }
 
+    .wrapper {
+        position: relative;
+        top: -100px;
+    }
+
+    .me-text {
+        width: 400px;
+    }
+
 }
