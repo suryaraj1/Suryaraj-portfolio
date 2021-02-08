@@ -91,7 +91,7 @@ body {
 }
 
 .activate {
-    background: transparent;
+    background: #0f112e;
     backdrop-filter: blur(5px);
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
 }
@@ -470,7 +470,7 @@ body {
 
 .wrapper1 .card {
     height: 250px;
-    width: 250px;
+    width: 100%;
     background:  #10133f;
     position: relative;
     top: 180px;
@@ -479,6 +479,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
     border: 2px solid #080a25;
+    overflow: hidden;
 }
 
 .wrapper1 header {
@@ -510,12 +511,15 @@ body {
 }
 
 .wrapper1 .project-description {
+    padding: 15px 10px;
     color: rgb(168, 167, 167);
-    font-size: 13px;
-    position: relative;
-    top: 7px;
-    left: 12px;
+    font-size: 12px;
     font-family: Inter var,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.wrapper1 .tech-stack {
+    padding: 15px 10px;
+    width: 100%;
 }
 
 .wrapper1 .tech {
@@ -523,10 +527,10 @@ body {
     list-style: none;
     display: flex;
     font-size: 12px;
+    font-weight: 700;
     font-family: "Fira Code", "Fira Mono", "SF Mono", "Roboto Mono", Consolas, Monaco, "Lucida Console", "Courier New", monospace;
     position: relative;
-    top: 14px;
-    right: 64px;
+    right: 20px;
 }
 
 .tech li {
@@ -637,7 +641,7 @@ a {
 }
 
 /* media queries */
-@media all and (max-width: 500px) {
+@media all and (min-width: 700px) {
 
     body {
         overflow-x: hidden;
@@ -730,9 +734,9 @@ a {
 
     /* todo */
     .basic-grid {
-        width: 580px;
-        display: flex;
-        flex-wrap: wrap;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
     }
 
 
