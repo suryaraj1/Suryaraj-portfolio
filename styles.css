@@ -460,12 +460,27 @@ body {
     color: rgb(163, 86, 240);
 }
 
+.wrapper1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 500px;
+}
+
+.projects-section {
+    display: flex;
+    justify-content: center;
+}
+
 .wrapper1 h1 {
     color: #fff;
     font-size: 3.3em;
     position: relative;
     top: 160px;
-    left: 84px;
+
+    text-align: center;
 }
 
 .wrapper1 .card {
@@ -552,9 +567,8 @@ body {
 }   
 
 .basic-grid {
-    position: relative;
-    left: 50px;
-    width: 800px;
+
+    width: 1000px;
     display: grid;
     /* space out the children */
     gap: 1em;
@@ -752,6 +766,14 @@ a {
 
     .me-text {
         width: 400px;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .basic-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
     }
 
 }
